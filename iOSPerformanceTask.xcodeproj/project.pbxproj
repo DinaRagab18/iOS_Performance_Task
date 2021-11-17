@@ -53,6 +53,7 @@
 		6FCE75112745431B0047252B /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE750D2745431A0047252B /* BaseTableViewController.swift */; };
 		6FCE75122745431B0047252B /* BaseTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FCE750E2745431A0047252B /* BaseTableViewController.xib */; };
 		6FCE75132745431B0047252B /* CustomAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE750F2745431B0047252B /* CustomAdaptor.swift */; };
+		6FCE754A27458DD20047252B /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE754927458DD20047252B /* ImageCache.swift */; };
 		70CF50C31565943A10FC3CE7 /* libPods-iOSPerformanceTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDA6BEFF8172ECDEF1EC60B /* libPods-iOSPerformanceTask.a */; };
 /* End PBXBuildFile section */
 
@@ -128,6 +129,7 @@
 		6FCE750D2745431A0047252B /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		6FCE750E2745431A0047252B /* BaseTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseTableViewController.xib; sourceTree = "<group>"; };
 		6FCE750F2745431B0047252B /* CustomAdaptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAdaptor.swift; sourceTree = "<group>"; };
+		6FCE754927458DD20047252B /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		CCDA6BEFF8172ECDEF1EC60B /* libPods-iOSPerformanceTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSPerformanceTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -199,6 +201,7 @@
 		6FCE7466274541220047252B /* iOSPerformanceTask */ = {
 			isa = PBXGroup;
 			children = (
+				6FCE754827458DD20047252B /* Utils */,
 				6FCE750B2745431A0047252B /* Views */,
 				6FCE75032745430C0047252B /* UI */,
 				6FCE74CB274543020047252B /* Scenes */,
@@ -394,6 +397,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		6FCE754827458DD20047252B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6FCE754927458DD20047252B /* ImageCache.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -586,6 +597,7 @@
 				6FCE74C7274542E20047252B /* UIImage+Extension.swift in Sources */,
 				6FCE74F0274543030047252B /* Person.swift in Sources */,
 				6FCE74ED274543030047252B /* DetailsModel.swift in Sources */,
+				6FCE754A27458DD20047252B /* ImageCache.swift in Sources */,
 				6FCE74F3274543030047252B /* MovieListModel.swift in Sources */,
 				6FCE74A62745429E0047252B /* ApplicationCoordinator.swift in Sources */,
 				6FCE74F1274543030047252B /* ActorsService.swift in Sources */,
