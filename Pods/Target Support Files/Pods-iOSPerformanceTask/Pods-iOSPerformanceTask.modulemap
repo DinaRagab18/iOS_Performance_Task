@@ -1,0 +1,6 @@
+module Pods_iOSPerformanceTask {
+  umbrella header "Pods-iOSPerformanceTask-umbrella.h"
+
+  export *
+  module * { export * }
+}
